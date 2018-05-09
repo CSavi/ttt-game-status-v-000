@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 
 
 #board with top_row win
-board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+#board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 #top_row_win = [0,1,2]
 
 #win_index_1 = win_combination[0]
@@ -45,9 +45,9 @@ def won?(board)
      false 
    end 
   end  
-!WIN_COMBINATIONS.each do |win_group|
+ !WIN_COMBINATIONS.each do |win_group|
   return false 
-end 
+ end 
 end 
 
 def full?(board)
